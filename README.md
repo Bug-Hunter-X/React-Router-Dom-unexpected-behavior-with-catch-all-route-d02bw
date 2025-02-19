@@ -1,0 +1,3 @@
+# React Router Dom Catch-All Route Bug
+
+This repository demonstrates a bug in React Router Dom v6 where the catch-all route ('*') does not render correctly when navigating to a route that does not exist.  The issue is that the catch-all route is only rendered if there is no exact match, but if the user tries to access a URL that doesn't exist (e.g. a typo), then the app does not render the catch-all component (NotFound in this case).
